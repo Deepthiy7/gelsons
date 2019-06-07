@@ -22,7 +22,7 @@ view: substitutable_product_line_code_flag {
   }
 
   dimension: line_code {
-    type: number
+    type: string
     sql: ${TABLE}.LineCode ;;
   }
 
@@ -59,6 +59,11 @@ view: substitutable_product_line_code_flag {
   dimension: year {
     type: number
     sql: ${TABLE}.year ;;
+  }
+
+  dimension:  product_name  {
+    type: string
+    sql: ${TABLE}.product_name  ;;
   }
 
   measure: count {
