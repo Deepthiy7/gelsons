@@ -13,3 +13,5 @@ persist_with: gelsons_visualisation_default_datagroup
 explore: customer_cluster {}
 
 explore: substitutable_product_line_code_flag {}
+
+explore: customer_demographics {}
